@@ -26,7 +26,6 @@
 ### Prerequisites
 
 * Updated version of naoqi-simulator-sdk. 
-* Replace the file naoqi-simulator-sdk/etc/hal/hal.xml with dependencies/hal.xml
 * V-REP_PRO_EDU_V3_4_0_Linux which can be downloaded from: http://www.coppeliarobotics.com/previousversions.html
 
 ### Installing
@@ -35,6 +34,8 @@
 echo 'export PATH_TO_SIM_DIR=/path/to/simulator-sdk' >> ~/.bashrc 
 echo 'export PATH_TO_VREP_DIR=/path/to/vrep' >> ~/.bashrc 
 ```
+
+* Replace the file naoqi-simulator-sdk/etc/hal/hal.xml with dependencies/hal.xml
 
 ## Deployment
 
