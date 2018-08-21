@@ -1,10 +1,10 @@
 # vrep-naoqi-simulation
 =======================================================
 
-* This respository contains the software for running simulations on vrep 
- by providing an interface between vrep opensource simulator and naoqi 
- (Aldebaran's Nao software). Using this, you can easily run any naoqi
- based code or script on the simulated robot in vrep (:
+This respository contains the software for running simulations on vrep 
+by providing an interface between vrep opensource simulator and naoqi 
+(Aldebaran's Nao software). Using this, you can easily run any naoqi
+based code or script on the simulated robot in vrep (:
 
 ## Getting Started
 
@@ -30,7 +30,7 @@ For running the code, a simulated naoqi robot must be running. For that use:
 ```
 ./scripts/simulated_nao.sh
 ```
-* This successfully loads the naoqi-sim for code exeuction. 
+
 For dynamic simulations in vrep, there are two versions of nao provided in models and can be used with 
  separate scripts. 
  
