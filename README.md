@@ -2,24 +2,24 @@
 =======================================================
 
 * This respository contains the software for running simulations on vrep 
-* by providing an interface between vrep opensource simulator and naoqi 
-* (Aldebaran's Nao software). Using this, you can easily run any naoqi
-* based code or script on the simulated robot in vrep (:
+ by providing an interface between vrep opensource simulator and naoqi 
+ (Aldebaran's Nao software). Using this, you can easily run any naoqi
+ based code or script on the simulated robot in vrep (:
 
 * There are two versions of nao provided in models and can be used with 
-* separate scripts. The simple_nao_model.ttm is the modified version of 
-* vrep provided nao model. Modifications include addition of some sensors
-* and fixes to work with the interface. You can use it for simultions
-* and it is compatible with all of the available physics engine in vrep.
-* However, this model greatly simplified and does not depict the inertial 
-* properties of an actual nao (real life robot).
+ separate scripts. The simple_nao_model.ttm is the modified version of 
+ vrep provided nao model. Modifications include addition of some sensors
+ and fixes to work with the interface. You can use it for simultions
+ and it is compatible with all of the available physics engine in vrep.
+ However, this model greatly simplified and does not depict the inertial 
+ properties of an actual nao (real life robot).
 
 * Thus, the other model named V50_nao_model_vrep.ttm is provided which is 
-* further modified from the same model to have the inertial properties of 
-* an actual V50 Nao robot. In addition, this model also has the foot collision 
-* mesh similar to an actual Nao instead of a box mesh as provided in the 
-* vrep model. However, the use of this model is not compatible with bullet,
-* or ode engines. For this model, only Vortex engine can be used.
+ further modified from the same model to have the inertial properties of 
+ an actual V50 Nao robot. In addition, this model also has the foot collision 
+ mesh similar to an actual Nao instead of a box mesh as provided in the 
+ vrep model. However, the use of this model is not compatible with bullet,
+ or ode engines. For this model, only Vortex engine can be used.
 
 ## Getting Started
 
