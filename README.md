@@ -10,6 +10,7 @@ based code or script on the simulated robot in vrep (:
 
 ### Prerequisites
 
+* Ubuntu 14.04 for naoqi-simulator-sdk compatibility reasons.
 * Updated version of naoqi-simulator-sdk. 
 * V-REP_PRO_EDU_V3_4_0_Linux which can be downloaded from: http://www.coppeliarobotics.com/previousversions.html
 
@@ -21,6 +22,14 @@ echo 'export PATH_TO_VREP_DIR=/path/to/vrep' >> ~/.bashrc
 ```
 
 * Replace the file naoqi-simulator-sdk/etc/hal/hal.xml with dependencies/hal.xml
+
+* Build the code using the following commands:
+```
+mkdir build
+cd build
+cmake ..
+make
+```
 
 ## Deployment
 
